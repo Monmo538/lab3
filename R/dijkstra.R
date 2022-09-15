@@ -5,8 +5,8 @@
 #' @param init_node A number.
 #' @return The shortest path from the `init_node` to every other node in the `graph`.
 #'
-#' @source \url {"https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm"}
-#'
+#' @source \url{https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm}
+#' @export
 #' @examples
 #' dijkstra(graph, 1)
 #' dijkstra(graph, 3)

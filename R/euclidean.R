@@ -5,6 +5,7 @@
 #' @return Euclidean distance of `a` and `b`
 #'
 #' @source \url{http://en.wikipedia.org/wiki/Euclidean_algorithm}
+#' @export
 #' @examples
 #' euclidean(12, 12)
 #' euclidean(100, 1000)
