@@ -6,7 +6,7 @@
 #' @examples
 #' euclidean(123612, 13892347912)
 #' euclidean(100, 1000)
-#' @references \url("https://en.wikipedia.org/wiki/Euclidean_algorithm")
+#' Read more about Euclidean algorithm  <https://en.wikipedia.org/wiki/Euclidean_algorithm>.
 euclidean <-
 function(a,b) {
   if(missing(a) || missing(b)) {

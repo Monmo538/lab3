@@ -6,7 +6,7 @@
 #' @examples
 #' dijkstra(graph, 1)
 #' dijkstra(wiki_graph, 3)
-#' @references \url("https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm")
+#' Read more about Dijkstra algorithm  <https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm>.
 dijkstra <-
 function(graph, init_node) {
   if(missing(graph) || missing(init_node)) {
