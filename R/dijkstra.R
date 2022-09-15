@@ -1,12 +1,15 @@
 #' This function takes a graph and an initial node and calculates the shortest path from the initial node to every other node in the graph.
 #'
+#'
 #' @param graph R data frame.
 #' @param init_node A number.
 #' @return The shortest path from the `init_node` to every other node in the `graph`.
+#'
+#' @source \url {"https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm"}
+#'
 #' @examples
 #' dijkstra(graph, 1)
 #' dijkstra(graph, 3)
-#' @source \url {"https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm"}
 dijkstra <-
 function(graph, init_node) {
   if(missing(graph) || missing(init_node)) {

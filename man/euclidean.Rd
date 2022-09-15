@@ -4,7 +4,7 @@
 \alias{euclidean}
 \title{Find the greatest common divisor of two numbers.}
 \source{
-\url {"https://en.wikipedia.org/wiki/Euclidean_algorithm"}
+\url{http://en.wikipedia.org/wiki/Euclidean_algorithm}
 }
 \usage{
 euclidean(a, b)
@@ -21,6 +21,6 @@ Euclidean distance of `a` and `b`
 Find the greatest common divisor of two numbers.
 }
 \examples{
-euclidean(123612, 13892347912)
+euclidean(12, 12)
 euclidean(100, 1000)
 }
