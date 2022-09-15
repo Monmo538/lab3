@@ -3,8 +3,11 @@ Type: Package
 Title: This package includes 2 functions for lab 3
 Version: 1.0
 Date: 2022-09-14
-Author: Mona Moslemzadeh monmo538@student.liu.se, Adeel Ahmad adeah090@student.liu.se
-Maintainer: Mona Moslemzadeh <monmo538@student.liu.se>
+Authors@R: c(
+  person("Mona Moslemzadeh", "Developer", role = c("aut", "cre"),email = "monmo538@student.liu.se"),
+  person("Adeel Ahmad", "Developer", role = "aut", email = "adeah090@student.liu.se")
+  )
+Author: Mona Moslemzadeh [aut, cre], Adeel Ahmad [aut]
 Maintainer: Adeel Ahmad <adeah090@student.liu.se>
 Description: This package has 2 functions, euclidean algorithm which is used to find the greatest common divisor of two numbers and dijkstra algorithm, which is used to takes a graph and an initial node and calculates the shortest path from the initial node to every other node in the graph
 License: MIT
