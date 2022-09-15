@@ -19,8 +19,6 @@ This function takes a graph and an initial node and calculates the shortest path
 }
 \examples{
 dijkstra(graph, 1)
-dijkstra(wiki_graph, 3)
-}
-\references{
-\url("https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm")
+dijkstra(graph, 3)
+Read more about Dijkstra algorithm  <https://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm>.
 }

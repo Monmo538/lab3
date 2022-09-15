@@ -20,7 +20,5 @@ Find the greatest common divisor of two numbers.
 \examples{
 euclidean(123612, 13892347912)
 euclidean(100, 1000)
-}
-\references{
-\url("https://en.wikipedia.org/wiki/Euclidean_algorithm")s
+Read more about Euclidean algorithm  <https://en.wikipedia.org/wiki/Euclidean_algorithm>.
 }

@@ -5,7 +5,7 @@
 #' @return The shortest path from the `init_node` to every other node in the `graph`.
 #' @examples
 #' dijkstra(graph, 1)
-#' dijkstra(wiki_graph, 3)
+#' dijkstra(graph, 3)
 #' Read more about Dijkstra algorithm  <https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm>.
 dijkstra <-
 function(graph, init_node) {
