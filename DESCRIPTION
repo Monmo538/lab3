@@ -10,7 +10,7 @@ Authors@R: c(
 Author: Mona Moslemzadeh [aut, cre], Adeel Ahmad [aut]
 Maintainer: Adeel Ahmad <adeah090@student.liu.se>
 Description: This package has 2 functions, euclidean algorithm which is used to find the greatest common divisor of two numbers and dijkstra algorithm, which is used to takes a graph and an initial node and calculates the shortest path from the initial node to every other node in the graph.
-License: MIT
+License: MIT + file LICENSE
 RoxygenNote: 7.2.1
 Encoding: UTF-8
 
