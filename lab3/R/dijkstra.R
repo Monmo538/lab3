@@ -9,6 +9,16 @@
 #' @references \url("https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm")
 dijkstra <-
 function(graph, init_node) {
+  if(missing(graph) || missing(init_node)) {
+    return("Param missing")
+  }
+  if (!is.data.frame(graph)) {
+    return("Invalid param type. 'graph' should be a data frame.")
+  }
+  if (!is.numeric(init_node)) {
+    return("Invalid param type. 'init_node' should be a number")
+  }
+
   len <- length(unique(graph$v1))
   vectors <- unique(graph$v1)
   
