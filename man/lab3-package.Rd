@@ -21,5 +21,4 @@ The DESCRIPTION file:
 
 Maintainer: \packageMaintainer{lab3}
 }
-~~ the R documentation directory ~~
 \keyword{ package }
