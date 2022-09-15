@@ -2,8 +2,10 @@
 % Please edit documentation in R/euclidean.R
 \name{euclidean}
 \alias{euclidean}
-\title{Find the greatest common divisor of two numbers.
-Read more about Euclidean algorithm  <https://en.wikipedia.org/wiki/Euclidean_algorithm>.}
+\title{Find the greatest common divisor of two numbers.}
+\source{
+\url {"https://en.wikipedia.org/wiki/Euclidean_algorithm"}
+}
 \usage{
 euclidean(a, b)
 }
@@ -13,11 +15,10 @@ euclidean(a, b)
 \item{b}{A number.}
 }
 \value{
-Euclidean distance of `a` and `b`.
+Euclidean distance of `a` and `b`
 }
 \description{
 Find the greatest common divisor of two numbers.
-Read more about Euclidean algorithm  <https://en.wikipedia.org/wiki/Euclidean_algorithm>.
 }
 \examples{
 euclidean(123612, 13892347912)
