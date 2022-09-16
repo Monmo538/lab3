@@ -5,4 +5,4 @@
 #' @author Adeel \email{adeah090@@student.liu.se}
 #' @references \url{https://en.wikipedia.org/wiki/File:Wiki_graph.jpg}
 #' @keywords data
-NULL
+"wiki_graph"
