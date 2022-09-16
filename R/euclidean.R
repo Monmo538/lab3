@@ -12,13 +12,13 @@
 euclidean <-
 function(a,b) {
   if(missing(a) || missing(b)) {
-    return("Param missing")
+    stop("Param missing")
   }
   if (!is.numeric(a)) {
-    return("Invalid param type. 'a' should be a number")
+    stop("Invalid param type. 'a' should be a number")
   }
   if (!is.numeric(b)) {
-    return("Invalid param type. 'b' should be a number")
+    stop("Invalid param type. 'b' should be a number")
   }
 
   remainder <- integer(0);

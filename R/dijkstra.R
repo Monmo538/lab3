@@ -17,14 +17,32 @@
 dijkstra <-
 function(graph, init_node) {
   if(missing(graph) || missing(init_node)) {
-    return("Param missing")
+    stop("Param missing")
   }
   if (!is.data.frame(graph)) {
-    return("Invalid param type. 'graph' should be a data frame.")
+    stop("Invalid param type. 'graph' should be a data frame.")
   }
   if (!is.numeric(init_node)) {
-    return("Invalid param type. 'init_node' should be a number")
+    stop("Invalid param type. 'init_node' should be a number")
   }
+
+  if (!is.numeric(ncol(graph))) {
+    stop("Invalid data frame")
+  }
+  if (ncol(graph) != 3) {
+    stop("Invalid number of column in data frame")
+  }
+
+  if (!(colnames(graph)[1] == 'v1' && colnames(graph)[2] == 'v2' && colnames(graph)[3] == 'w')) {
+    stop("Invalid columns in data frame")
+  }
+
+
+  if (!(init_node %in% unique(graph$v1))) {
+    stop("Invalid value of init_node")
+  }
+
+
 
   len <- length(unique(graph$v1))
   vectors <- unique(graph$v1)
